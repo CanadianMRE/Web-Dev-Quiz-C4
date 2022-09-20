@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Assets/css/reset.css">
+        <link rel="stylesheet" href="./Assets/css/style.css">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <header>
+            <nav class="space-between">
+                <button class="button-text-only" id="highscore-button">View Highscores</button>
+                <div id="timer-display">Time: 10</div>
+            </nav>
+        </header>
+
+
+        <main>
+            <section id="start-screen">
+                <h1 class="pad">Coding Quiz Challenge</h1>
+                <p class="pad">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10</p>
+                <button id="start-button" class="purple-button">Start Quiz</button>
+            </section>
+
+            <section id="quizbin">
+                <div id="question">What is the square root of root</div>
+
+                <ul id="question-list">
+                    <li><button data-index="0" class="purple-button question-button" id="question-1-button">Question 1</button></li>
+                    <li><button data-index="1" class="purple-button question-button" id="question-2-button">Question 2</button></li>
+                    <li><button data-index="2" class="purple-button question-button" id="question-3-button">Question 3</button></li>
+                    <li><button data-index="3" class="purple-button question-button" id="question-4-button">Question 4</button></li>
+                </ul>
+            </section>
+
+            <section id="enter-score">
+                <h1>All done!</h1>
+
+                <h2 id="final-score">Final score is 21221</h2>
+
+                <div id="initials-input">
+                    <span>Enter initials: </span>
+                    <input type="text" id="name-field">
+                    <button class="purple-button" id="name-submit-button">Submit</button>
+                </div>
+
+            </section>
+
+            <section id="highscore">
+                    <h1>Highscores</h1>
+
+                    <ul id="score-list">
+                        <li>AB - 22</li>
+                    </ul>
+
+                    <button class="purple-button" id="clear-scoreboard-button">Clear Highscores</button>
+            </section>
+            
+            <div id="answer-notifier">
+                Wrong!
+            </div>
+        </main>
+
+        <script src="./Assets/js/script.js"></script>
+    </body>
+
+</html>

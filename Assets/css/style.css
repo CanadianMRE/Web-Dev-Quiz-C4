@@ -1,0 +1,108 @@
+/*Global Variables*/
+:root {
+    --purple: rgb(80, 0, 80);
+    --light-purple: rgb(255, 231, 255);
+    --white: white;
+    --black: black;
+    --grey: grey;
+}
+
+/*Defining our header*/
+header {
+    padding: 10px;
+}
+
+/*setting the main size for the page*/
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Class rules for various things*/
+
+/*Makes our header have space between all objects inside it*/
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Makes a button purple and changes its text to white*/
+.purple-button {
+    background-color: var(--purple);
+    border-radius: 5px;
+    padding: 2px;
+    color: var(--white);
+}
+
+/*Makes a button which only has text*/
+.button-text-only {
+    background-color: inherit;
+    border: none;
+}
+
+/*Adds padding to a element*/
+.pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.question-button {
+    display: inline-block;
+}
+
+/*Setting color for our highscore view button*/
+#highscore-button {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+#start-screen {
+    justify-content: center;
+    text-align: center;
+}
+
+#question {
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+#question-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#question-list li {
+    margin: 5px;
+}
+
+/*Getting children of enter-score id and setting their margins*/
+#enter-score > * {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#initials-input > * {
+    margin-right: 5px;
+}
+
+#answer-notifier {
+    border-top: 1px solid var(--grey);
+    padding: 5px;
+    color: var(--grey);
+    font-style: italic;
+}
+
+#score-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#score-list > * {
+    background-color: var(--light-purple);
+    padding: 4px;
+}
