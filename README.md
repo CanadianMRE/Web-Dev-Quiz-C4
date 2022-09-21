@@ -13,7 +13,7 @@ This webpage can be accessed by going to https://canadianmre.github.io/Web-Dev-Q
 To use this webpage, click the start button, go through the questions and input your initials to save your score.
 
 ## Image
-https://raw.githubusercontent.com/CanadianMRE/Web-Dev-Quiz-C4/main/Assets/images/SiteImage.PNG
+![alt text](https://raw.githubusercontent.com/CanadianMRE/Web-Dev-Quiz-C4/main/Assets/images/SiteImage.PNG)
 
 ## Credits
 
